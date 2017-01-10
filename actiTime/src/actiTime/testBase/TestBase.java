@@ -80,7 +80,7 @@ public class TestBase extends Utills{
 		else 
 			throw new Exception("Unknow eliment locator type " + locatorType);		
 	}
-	public WebElement geWebElement(String locator) throws Exception{
+	public WebElement getWebElement(String locator) throws Exception{
 	return getLocator(Repository.getProperty(locator));
 	}
 	
