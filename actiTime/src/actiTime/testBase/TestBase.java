@@ -24,27 +24,27 @@ public class TestBase extends Utills{
 	}
 
 	private void loadPropertiesFile() throws IOException {
-		f = new File(System.getProperty("user.dir")+"/actiTime/src/actiTime/config/config.properties");
+		f = new File(System.getProperty("user.dir")+"/src/actiTime/config/config.properties");
 		FI = new FileInputStream(f);
 		Repository.load(FI);
 		
-		f = new File(System.getProperty("user.dir")+"/actiTime/src/actiTime/pageLocators/loginPage.properties");
+		f = new File(System.getProperty("user.dir")+"/src/actiTime/pageLocators/loginPage.properties");
 		FI = new FileInputStream(f);
 		Repository.load(FI);
 		
-		f = new File(System.getProperty("user.dir")+"/actiTime/src/actiTime/pageLocators/reportsPage.properties");
+		f = new File(System.getProperty("user.dir")+"/src/actiTime/pageLocators/reportsPage.properties");
 		FI = new FileInputStream(f);
 		Repository.load(FI);
 		
-		f = new File(System.getProperty("user.dir")+"/actiTime/src/actiTime/pageLocators/tasksPage.properties");
+		f = new File(System.getProperty("user.dir")+"/src/actiTime/pageLocators/tasksPage.properties");
 		FI = new FileInputStream(f);
 		Repository.load(FI);
 		
-		f = new File(System.getProperty("user.dir")+"/actiTime/src/actiTime/pageLocators/timeTracksPage.properties");
+		f = new File(System.getProperty("user.dir")+"/src/actiTime/pageLocators/timeTracksPage.properties");
 		FI = new FileInputStream(f);
 		Repository.load(FI);
 		
-		f = new File(System.getProperty("user.dir")+"/actiTime/src/actiTime/pageLocators/usersPage.properties");
+		f = new File(System.getProperty("user.dir")+"/src/actiTime/pageLocators/usersPage.properties");
 		FI = new FileInputStream(f);
 		Repository.load(FI);
 		
